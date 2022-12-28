@@ -18,9 +18,9 @@ setup(name='afrolid',
       install_requires=[
           'tensorboardX==2.5.1',
           'regex',
-          'torch==1.11.0',
+          'torch',
           'sentencepiece==0.1.96',
-          'fairseq==0.12.2',
+          'fairseq',
           'tqdm==4.63.0',
         ],
       entry_points={
